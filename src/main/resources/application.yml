@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: 论坛系统
+  output:
+    ansi:
+      enabled: always
+
+server:
+  port: 2066
+
+logging:
+  pattern:
+    dateformat: MM-dd HH:mm:ss
+  level:
+    root: info
+    com.anotine.forum: debug
+  file:
+    path: E:/log/forum

@@ -9,8 +9,12 @@
     <description>forum</description>
     <properties>
         <java.version>1.8</java.version>
+        <!-- 编译环境JDK版本 -->
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <!-- 运⾏环境JVM版本 -->
+        <maven.compiler.target>${java.version}</maven.compiler.target>
+        <!-- 构建项⽬指定编码集 -->
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <spring-boot.version>2.7.6</spring-boot.version>
     </properties>
     <dependencies>
