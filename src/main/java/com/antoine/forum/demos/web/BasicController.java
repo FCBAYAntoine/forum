@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.anotine.forum.demos.web;
+package com.antoine.forum.demos.web;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.ModelAttribute;

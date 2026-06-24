@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.anotine.forum.demos.web;
+package com.antoine.forum.demos.web;
 
 /**
  * @author <a href="mailto:chenxilzx1@gmail.com">theonefx</a>

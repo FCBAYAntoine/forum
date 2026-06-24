@@ -4,6 +4,12 @@ spring:
   output:
     ansi:
       enabled: always
+  datasource:
+    druid:
+      url: jdbc:mysql://127.0.0.1:3306/forum_db?characterEncoding=utf8&useSSL=false&allowPublicKeyRetrieval=true&serverTimezone=Asia/Shanghai
+      username: root
+      password: 123456
+      driver-class-name: com.mysql.cj.jdbc.Driver
 
 server:
   port: 2066
@@ -13,6 +19,9 @@ logging:
     dateformat: MM-dd HH:mm:ss
   level:
     root: info
-    com.anotine.forum: debug
+    com.antoine.forum: debug
   file:
     path: E:/log/forum
+
+mybatis:
+  mapper-locations: classpath:mapper/**/*.xml

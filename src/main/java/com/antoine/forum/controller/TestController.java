@@ -1,4 +1,4 @@
-package com.anotine.forum.controller;
+package com.antoine.forum.controller;
 
 
 import org.springframework.web.bind.annotation.RequestMapping;
